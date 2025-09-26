@@ -1,6 +1,12 @@
 draw_self();
-/* debug
+draw_set_font(fTest);
 draw_set_color(c_white);
-draw_set_halign(fa_center);
-draw_text(x, y-80, "Direction: " + string(sprDir));
- */
+draw_text(5, 5, "P-Direction: " + string(dir));
+draw_text(5, 20, "lendir_x: "+string(len_x));
+draw_text(5, 35, "lendir_y: "+string(len_y));
+draw_text(5, 50, "Speed: "+string(spd));
+draw_text(5, 65, "Collision?: "+ string(collision));
+draw_text(5, 80, "Xdir: "+ string(xdir));
+draw_text(5, 95, "Ydir: "+ string(ydir));
+draw_text(5, 110, "Xmove: "+ string(xmove));
+draw_text(5, 125, "Ymove: "+ string(ymove));
